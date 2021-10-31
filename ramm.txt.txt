@@ -1,0 +1,9 @@
+git config --global user.name "Rahul"
+git commit --global user.email "rahul431@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+git remote add origin <path of giit hub>
+git push origin master
